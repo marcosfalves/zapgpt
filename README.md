@@ -8,9 +8,10 @@ Link da live: https://www.youtube.com/watch?v=87iV8v2CRvU
 ## Pré requisitos
 - [Conta na AWS](https://aws.amazon.com/)
 - [Conta na OpenAI](https://openai.com/)
-- [Conta na Twilio](https:twilio.com)
+- [Conta na Twilio](https://www.twilio.com/)
 - [NodeJS](https://github.com/nodesource/distributions)
 
+---
 ### Passos para o deploy na AWS
 - Instalar o serverless
     ```sh
@@ -32,6 +33,11 @@ Link da live: https://www.youtube.com/watch?v=87iV8v2CRvU
     ```sh
     serverless deploy
     ```
-- Configurar webhook na Twilio
-    - Após o deploy ser finalizado com sucesso será gerado uma URL da função no seu console.
-    - Copiar essa URL e definir na 'Sandbox Configuration' com o método POST do serviço 'Send WhatsApp message' da Twilio.
+- Após o deploy ser finalizado com sucesso será gerado uma URL da função no seu console.
+
+---
+### Configurar webhook na Twilio
+
+- Acessar a conta da Twilio e procurar pelo serviço `Send WhatsApp message`.
+- Seguir as instruções para a criação de um ambiente Sandbox.
+- Na aba `Sandbox Configuration` colar a URL da função da AWS e definir o método POST.
