@@ -10,6 +10,7 @@ Link da live: https://www.youtube.com/watch?v=87iV8v2CRvU
 - [Conta na OpenAI](https://openai.com/)
 - [Conta na Twilio](https://www.twilio.com/)
 - [NodeJS](https://github.com/nodesource/distributions)
+- [GO](https://go.dev/doc/install)
 
 ---
 ### Passos para o deploy na AWS
